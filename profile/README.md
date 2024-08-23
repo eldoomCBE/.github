@@ -4,16 +4,42 @@
 
 ## Introduction
 
-eldoomCBE is a web-based tool designed to manage and visualize competency frameworks in the Moodle Learning Management System. It allows users to import, edit, visualize, and export competency frameworks, offering comprehensive features like statistics, charts, and tag clouds for better understanding and analysis.
+eldoomCBE is a (standalone) web-based tool designed to manage and visualize competency frameworks in the Moodle Learning Management System. It allows users to import, edit, visualize, and export competency frameworks, offering comprehensive features like statistics, charts, and tag clouds for better understanding and analysis.
+
+![eldoomTOOLS.jpg](https://eldoomcbe.github.io/.github/assets/screenshots/eldoomTOOLS.jpg)
 
 ## Features
 
-|   |   |
-|---|---|
-|   |   |
-|   |   |
-|   |   |
-|   |   |
+|  **Import & Export** ||
+|:---:|:---:|
+|  ![eldoomCBE_quick_start_import.jpg](https://eldoomcbe.github.io/.github/assets/screenshots/eldoomCBE_quick_start_import.jpg)  | ![eldoomCBE_quick_start_export.jpg](https://eldoomcbe.github.io/.github/assets/screenshots/eldoomCBE_quick_start_export.jpg)  |
+|  Import competency frameworks from CSV files and export them after editing  ||
+
+---
+
+|  **Preview mode** ||
+|:---:|:---:|
+|  ![eldoomTOOLS.jpg](https://eldoomcbe.github.io/.github/assets/screenshots/eldoomCBE_quick_start_preview.jpg)  ||
+|  ![eldoomTOOLS.jpg](https://eldoomcbe.github.io/.github/assets/screenshots/eldoomCBE_quick_start_expanding.jpg)  ||
+|  *yeah... you know what we mean there... hundred of clicks that has never been made...*  ||
+
+---
+
+---
+
+|  **Edit mode** ||
+|:---:|:---:|
+|  ![eldoomCBE_quick_start_edit.jpg](https://eldoomcbe.github.io/.github/assets/screenshots/eldoomCBE_quick_start_edit.jpg)  ||
+|  Edit competency frameworks directly and style Descriptions with TinyMCE  ||
+|  ![eldoomCBE_quick_settings.jpg](https://eldoomcbe.github.io/.github/assets/screenshots/eldoomCBE_quick_settings.jpg)  ||
+|  ☝️ *don't mess with this (parent id & id numbers, is framework, taxonomy)... or you may "break" your competency framework... nothing dramatic though, because none of this is saved anywhere (standalone) as long as you don't export anything, and if it's no good, moodle won't forget to remind you when you'll try to import a broken framework*  ||
+
+---
+
+|  **Usable stats** ||
+|:---:|:---:|
+|  ![eldoomCBE_quick_start_stats.jpg](https://eldoomcbe.github.io/.github/assets/screenshots/eldoomCBE_quick_start_stats.jpg)  ||
+|  Quick stats & word cloud about what's inside competency frameworks (click to select)  ||
 
 - **Import & Export**: Import competency frameworks from CSV files and export them after editing.
 - **Tree Visualization**: Visualize competency frameworks in a hierarchical tree structure using jsTree.
@@ -22,6 +48,9 @@ eldoomCBE is a web-based tool designed to manage and visualize competency framew
 - **Tag Cloud**: Generate tag clouds based on the frequency of terms in the competency descriptions.
 - **JSON Input**: Directly input JSON data for competency frameworks.
 - **Competency Framework Generator**: Generate new competency frameworks using a simple interface.
+- etc.
+
+> 👉 Go to the main repo for the competency framework tool: [GitHub - eldoomCBE/cf](https://github.com/eldoomCBE/cf)
 
 ## Getting Started
 
