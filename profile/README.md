@@ -60,10 +60,10 @@ eldoomCBE is a (standalone) web-based tool designed to manage and visualize comp
 
 - **📁 Import a .csv**: you can upload your own CSV file.
 - **🗃️ Select a sample**: Choose a sample file from the "Sample Files" dropdown. Lists can be dynamically loaded if set up correctly inside a .json sample list.
-- **📋 Direct JSON input**: Click on the "Input" button to paste your JSON data.
-- **🎰 Use generator**: Use the "Generator" to create a new competency framework.
 - **👀 PREVIEW & ✏️ EDIT**: Use the left side to interact with the tree and the right side to view/edit details.
-- **</> JSON output**: Click on the "Output" button to paste your JSON data.
+- **📋 Direct JSON input**: Click on the "Input" button to paste your JSON data.
+- **🎰 Use generator**: Use the "Generator" to create a new competency framework (output is JSON Data).
+- **</> JSON output**: Click on the "Output" button to copy your JSON data.
 - **📥 Export Data**: Switch to EDIT mode, open the output and click on the "EXPORT" button to download again framework as a CSV file.
 
 ### Development
